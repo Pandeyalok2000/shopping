@@ -25,7 +25,7 @@ SECRET_KEY = '*esnlnxa%$te$gl%ldpp$bksou$!!xb2n3!6ar6#8a*&h2g@f9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','alokshoppingcart.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -132,3 +132,5 @@ STRIPE_PUBLISHABLE_KEY = 'pk_test_51HQKRKBxAGYRaPj4GiQ2fBOveC22RkSnFmou3qaATq7Nu
 STRIPE_SECRET_KEY = 'sk_test_51HQKRKBxAGYRaPj48n7Poxtkm0Dv8iqCTwp24evQhIKFOYTNzVg4LsdZeSNvpgXsMLY9dJPqrE3eWbYvtbNqul9O00J6CRaIgb'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
