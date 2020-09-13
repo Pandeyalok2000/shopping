@@ -25,7 +25,7 @@ SECRET_KEY = '*esnlnxa%$te$gl%ldpp$bksou$!!xb2n3!6ar6#8a*&h2g@f9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1','alokshoppingcart.herokuapp.com']
 
 
 # Application definition
